@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsZone - Esportes</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SportsZone</h1>
+        <p>Modalidades esportivas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="esportes.html">Esportes</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="calendario.html">Calendário</a>
+        <a href="favoritos.html">Favoritos</a>
+    </nav>
+
+    <main>
+        <h2>Conheça os esportes</h2>
+
+        <section class="cards">
+
+            <article class="card">
+                <h3>⚽ Futebol</h3>
+                <p>
+                    Esporte disputado entre duas equipes
+                    de 11 jogadores.
+                </p>
+                <button onclick="adicionarFavorito('Futebol')">
+                    Adicionar aos favoritos
+                </button>
+            </article>
+
+            <article class="card">
+                <h3>🏀 Basquete</h3>
+                <p>
+                    Modalidade em que duas equipes
+                    tentam marcar pontos na cesta adversária.
+                </p>
+                <button onclick="adicionarFavorito('Basquete')">
+                    Adicionar aos favoritos
+                </button>
+            </article>
+
+            <article class="card">
+                <h3>🏐 Vôlei</h3>
+                <p>
+                    Esporte coletivo em que os jogadores
+                    precisam passar a bola sobre a rede.
+                </p>
+                <button onclick="adicionarFavorito('Vôlei')">
+                    Adicionar aos favoritos
+                </button>
+            </article>
+
+            <article class="card">
+                <h3>🎾 Tênis</h3>
+                <p>
+                    Esporte praticado individualmente
+                    ou em duplas, utilizando raquetes.
+                </p>
+                <button onclick="adicionarFavorito('Tênis')">
+                    Adicionar aos favoritos
+                </button>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

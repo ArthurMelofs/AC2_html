@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsZone - Calendário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SportsZone</h1>
+        <p>Calendário esportivo</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="esportes.html">Esportes</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="calendario.html">Calendário</a>
+        <a href="favoritos.html">Favoritos</a>
+    </nav>
+
+    <main>
+        <h2>Próximos eventos</h2>
+        <p>Agenda demonstrativa de competições.</p>
+
+        <section class="cards">
+
+            <article class="card">
+                <h3>⚽ Futebol</h3>
+                <p>25/11/2026 - 19h</p>
+                <p>Time Azul x Time Vermelho</p>
+
+                <button onclick="mostrarDetalhes('Futebol', '25/11/2026', '19h')">
+                    Ver detalhes
+                </button>
+            </article>
+
+            <article class="card">
+                <h3>🏀 Basquete</h3>
+                <p>27/11/2026 - 20h</p>
+                <p>Equipe A x Equipe B</p>
+
+                <button onclick="mostrarDetalhes('Basquete', '27/11/2026', '20h')">
+                    Ver detalhes
+                </button>
+            </article>
+
+            <article class="card">
+                <h3>🏐 Vôlei</h3>
+                <p>30/11/2026 - 18h</p>
+                <p>Equipe Norte x Equipe Sul</p>
+
+                <button onclick="mostrarDetalhes('Vôlei', '30/11/2026', '18h')">
+                    Ver detalhes
+                </button>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

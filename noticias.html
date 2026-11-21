@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportsZone - Notícias</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SportsZone</h1>
+        <p>Notícias esportivas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="esportes.html">Esportes</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="calendario.html">Calendário</a>
+        <a href="favoritos.html">Favoritos</a>
+    </nav>
+
+    <main>
+        <h2>Últimas notícias</h2>
+        <p>Confira nossas notícias demonstrativas.</p>
+
+        <label for="filtro">Filtrar por esporte:</label>
+
+        <select id="filtro" onchange="filtrarNoticias()">
+            <option value="todos">Todos</option>
+            <option value="futebol">Futebol</option>
+            <option value="basquete">Basquete</option>
+            <option value="volei">Vôlei</option>
+            <option value="tenis">Tênis</option>
+        </select>
+
+        <section class="cards">
+
+            <article class="card noticia futebol">
+                <h3>⚽ Futebol</h3>
+                <p>
+                    Equipe se prepara para uma grande
+                    decisão do campeonato.
+                </p>
+            </article>
+
+            <article class="card noticia basquete">
+                <h3>🏀 Basquete</h3>
+                <p>
+                    Jogadores intensificam os treinamentos
+                    para a próxima temporada.
+                </p>
+            </article>
+
+            <article class="card noticia volei">
+                <h3>🏐 Vôlei</h3>
+                <p>
+                    Seleção inicia preparação para
+                    um novo torneio internacional.
+                </p>
+            </article>
+
+            <article class="card noticia tenis">
+                <h3>🎾 Tênis</h3>
+                <p>
+                    Jovem atleta conquista destaque
+                    em competição nacional.
+                </p>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
